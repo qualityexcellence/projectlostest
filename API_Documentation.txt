@@ -1,5 +1,5 @@
 1. Generate token 
-Endpoint : http://localhost:3090/TOKEN 
+Endpoint : http://localhost:3097/TOKEN 
 HTTP VERB: POST 
 Request header : x-www-form-urlencoded
 REQUEST body : grant_type : password 
