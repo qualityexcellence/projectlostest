@@ -1,0 +1,23 @@
+1. Generate token 
+Endpoint : http://localhost:3090/TOKEN 
+HTTP VERB: POST 
+Request header : x-www-form-urlencoded
+REQUEST body : grant_type : password 
+username : admin 
+password : admin
+2. Other endpoints header
+The 3 endpoints
+Authorization : bearer {token}
+Endpoint : http://localhost:3097/api/Car/Update 
+Request body :{"id":0,"name":"","color":"","yearmade":""}
+body raw json
+
+Endpoint : http://localhost:3097/api/Car/Add
+Request body :{"name":"","color":"","yearmade":""}
+body raw json
+
+Endpoint : http://localhost:3097/api/Car/LoadByYear?year=2020
+
+PATCH, POST, GET
+
+Those are the Http verb for the 3 endpoints respectively

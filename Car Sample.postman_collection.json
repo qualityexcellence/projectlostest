@@ -1,0 +1,108 @@
+{
+	"variables": [],
+	"info": {
+		"name": "Car Sample",
+		"_postman_id": "fcf4aa30-144c-5be6-c854-49cfc3d04da9",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://localhost:3097/Token",
+			"request": {
+				"url": "http://localhost:3097/Token",
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "grant_type",
+							"value": "password",
+							"type": "text"
+						},
+						{
+							"key": "username",
+							"value": "admin",
+							"type": "text"
+						},
+						{
+							"key": "password",
+							"value": "admin",
+							"type": "text"
+						}
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3097/api/Car/Update",
+			"request": {
+				"url": "http://localhost:3097/api/Car/Update",
+				"method": "PATCH",
+				"header": [
+					{
+						"key": "grant_type",
+						"value": "password",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"id\":1,\"name\":\"Camry\",\"color\":\"Red\",\"yearmade\":\"2020\"}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3097/api/Car/loadbyyear?year=2000",
+			"request": {
+				"url": {
+					"raw": "http://localhost:3097/api/Car/loadbyyear?year=2000",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3097",
+					"path": [
+						"api",
+						"Car",
+						"loadbyyear"
+					],
+					"query": [
+						{
+							"key": "year",
+							"value": "2000"
+						}
+					],
+					"variable": []
+				},
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3097/api/Car/Add",
+			"request": {
+				"url": "http://localhost:3097/api/Car/Add",
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"name\":\"Camry\",\"color\":\"Red\",\"yearmade\":\"2020\"}"
+				},
+				"description": ""
+			},
+			"response": []
+		}
+	]
+}
