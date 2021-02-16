@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30717.126
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestingProject1", "WebApiOauth2\TestingProject1.csproj", "{78FCEA85-2C60-4DE8-9194-C9F3FCF774DA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTestProject1", "UnitTestProject1\UnitTestProject1.csproj", "{1538929F-543B-4926-BC4F-56B4C5FC46BE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{78FCEA85-2C60-4DE8-9194-C9F3FCF774DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78FCEA85-2C60-4DE8-9194-C9F3FCF774DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78FCEA85-2C60-4DE8-9194-C9F3FCF774DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78FCEA85-2C60-4DE8-9194-C9F3FCF774DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1538929F-543B-4926-BC4F-56B4C5FC46BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1538929F-543B-4926-BC4F-56B4C5FC46BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1538929F-543B-4926-BC4F-56B4C5FC46BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1538929F-543B-4926-BC4F-56B4C5FC46BE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9BCF4478-72BF-45FE-BCC4-49186ACB5C50}
+	EndGlobalSection
+EndGlobal
